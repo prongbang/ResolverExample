@@ -22,7 +22,7 @@ class DefaultGetAlbumsListUseCase: GetAlbumsListUseCase {
     }
     
     func execute() -> Albums {
-        return self.albumsRepository.fetchAlbumsList()
+        return self.albumsRepository.getAlbumsList()
     }
     
 }

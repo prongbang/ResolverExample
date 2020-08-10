@@ -11,7 +11,15 @@ import Resolver
 extension Resolver {
     
     public static func registerAlbums() {
-        register{ DefaultAlbumsRepository() as AlbumsRepository }
+        register{ MockAlbumsAPI() as AlbumsAPI }
+        register(name: "AlbumsRemoteDataSource") { AlbumsRemoteDataSource(albumsAPI: resolve()) as AlbumsDataSource }
+        register(name: "AlbumsLocalDataSource") { AlbumsLocalDataSource() as AlbumsDataSource }
+        register{
+            DefaultAlbumsRepository(
+                albumsLocalDataSource: resolve(name: "AlbumsLocalDataSource"),
+                albumsRemoteDataSource: resolve(name: "AlbumsRemoteDataSource")
+            ) as AlbumsRepository
+        }
         register{ DefaultGetAlbumsListUseCase(albumsRepository: resolve()) as GetAlbumsListUseCase }
         register{ AlbumsViewModel() }
     }

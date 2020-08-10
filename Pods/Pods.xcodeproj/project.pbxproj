@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1BE637A93C5318C77C7BDD61896CAB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		44CB76BB1F965612E0528A24DEC6F94F /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922F62861438C4129A4831DB6150286 /* Resolver.swift */; };
+		44CB76BB1F965612E0528A24DEC6F94F /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C218D47E20C7C1C3BDBDF57241E6F6 /* Resolver.swift */; };
 		5EA49A66044D2D9C89ED324F25A232C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		99F527F21B76919827A38E227C754A42 /* Resolver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E010E07833723996890B048D987216 /* Resolver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F527F21B76919827A38E227C754A42 /* Resolver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCCF983A021AA393A5E8528D77D1628 /* Resolver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DA9BDC239F67AD136AB873B702D7871 /* Pods-ResolverExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7162281CC3C91DBE211E6F1DE5D0FEB /* Pods-ResolverExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1ECF3D2DE1752522DB1BF306577D2F6 /* Resolver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1446A2BBDBFC8945FD22EAD1CA7702 /* Resolver-dummy.m */; };
+		D1ECF3D2DE1752522DB1BF306577D2F6 /* Resolver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 156C93ECEEA034432C0C48B8814446FA /* Resolver-dummy.m */; };
 		FD22210DC75407F96CAF8FB388E2287A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		FF9D91FCFB99036A02F47E52BF501907 /* Pods-ResolverExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F618A3036ACD617108EAE360245DF683 /* Pods-ResolverExample-dummy.m */; };
 /* End PBXBuildFile section */
@@ -28,27 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08D72624BEBD275CC6E3E6E3E21F79DB /* Resolver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Resolver.modulemap; sourceTree = "<group>"; };
-		08E010E07833723996890B048D987216 /* Resolver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Resolver-umbrella.h"; sourceTree = "<group>"; };
+		156C93ECEEA034432C0C48B8814446FA /* Resolver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Resolver-dummy.m"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		422E0A2BA7731CD919EF4A8AE8C6BED2 /* Pods-ResolverExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResolverExample-Info.plist"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45D29BA37D5608AF2B95A293093B29AC /* Pods-ResolverExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ResolverExample.modulemap"; sourceTree = "<group>"; };
-		72E95801FD08E35B1DF3D6E54FAD75C5 /* Resolver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Resolver-prefix.pch"; sourceTree = "<group>"; };
+		54C218D47E20C7C1C3BDBDF57241E6F6 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver/Resolver.swift; sourceTree = "<group>"; };
+		6DCCF983A021AA393A5E8528D77D1628 /* Resolver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Resolver-umbrella.h"; sourceTree = "<group>"; };
 		9009B31EAA710C96A6D641113E480ED8 /* Pods-ResolverExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResolverExample.release.xcconfig"; sourceTree = "<group>"; };
+		96B47E45F79D29460257F945D35D97F1 /* Resolver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Resolver.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC1446A2BBDBFC8945FD22EAD1CA7702 /* Resolver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Resolver-dummy.m"; sourceTree = "<group>"; };
+		9EA71D809C73C4041E2EAAD8F31855C5 /* Resolver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Resolver-Info.plist"; sourceTree = "<group>"; };
+		B408637C2D260778345825ED5E8C3805 /* Resolver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Resolver.release.xcconfig; sourceTree = "<group>"; };
 		BD23283FA56977722299C56C195252A4 /* Pods-ResolverExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResolverExample.debug.xcconfig"; sourceTree = "<group>"; };
 		BD28E8796FC0D86EC7505AE8731AC57A /* Pods_ResolverExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResolverExample.framework; path = "Pods-ResolverExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AAF71341AF63D7AC4F176002C91556 /* Pods-ResolverExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResolverExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C922F62861438C4129A4831DB6150286 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver/Resolver.swift; sourceTree = "<group>"; };
 		DD914033B97E2FEEE36E0CC3D087DEAB /* Pods-ResolverExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResolverExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDFD6E1EE7FB75CC6E6CEB7213F706BD /* Resolver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Resolver.framework; path = Resolver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E786BD745190D7B3DB3A776FFF34B4BF /* Resolver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Resolver-Info.plist"; sourceTree = "<group>"; };
-		E80424DB35F23613877143652F238E9E /* Resolver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Resolver.xcconfig; sourceTree = "<group>"; };
+		DEE32C763999AD7BF97661D83F4D6A57 /* Resolver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Resolver-prefix.pch"; sourceTree = "<group>"; };
 		E8CCCFC7066BEFC5018DA5DBE538C2BD /* Pods-ResolverExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResolverExample-frameworks.sh"; sourceTree = "<group>"; };
 		F618A3036ACD617108EAE360245DF683 /* Pods-ResolverExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResolverExample-dummy.m"; sourceTree = "<group>"; };
 		F7162281CC3C91DBE211E6F1DE5D0FEB /* Pods-ResolverExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResolverExample-umbrella.h"; sourceTree = "<group>"; };
+		FBF8D5BEEB9643C8784B481170426C16 /* Resolver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Resolver.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,24 +81,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D830798CE06DC94FB03E46E34BDB7B2 /* Support Files */ = {
+		1B19E37A4A99DE32B1D309643C768799 /* Resolver */ = {
 			isa = PBXGroup;
 			children = (
-				08D72624BEBD275CC6E3E6E3E21F79DB /* Resolver.modulemap */,
-				E80424DB35F23613877143652F238E9E /* Resolver.xcconfig */,
-				BC1446A2BBDBFC8945FD22EAD1CA7702 /* Resolver-dummy.m */,
-				E786BD745190D7B3DB3A776FFF34B4BF /* Resolver-Info.plist */,
-				72E95801FD08E35B1DF3D6E54FAD75C5 /* Resolver-prefix.pch */,
-				08E010E07833723996890B048D987216 /* Resolver-umbrella.h */,
+				54C218D47E20C7C1C3BDBDF57241E6F6 /* Resolver.swift */,
+				681F8B311E20F1486E1E39D415D44858 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Resolver";
+			name = Resolver;
+			path = Resolver;
 			sourceTree = "<group>";
 		};
 		2AFD0B7FF3C3756BBFD50625DD0E5312 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				49EF77D10F7566FBD51628D725CCA392 /* Resolver */,
+				1B19E37A4A99DE32B1D309643C768799 /* Resolver */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -119,14 +116,19 @@
 			path = "Target Support Files/Pods-ResolverExample";
 			sourceTree = "<group>";
 		};
-		49EF77D10F7566FBD51628D725CCA392 /* Resolver */ = {
+		681F8B311E20F1486E1E39D415D44858 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C922F62861438C4129A4831DB6150286 /* Resolver.swift */,
-				1D830798CE06DC94FB03E46E34BDB7B2 /* Support Files */,
+				FBF8D5BEEB9643C8784B481170426C16 /* Resolver.modulemap */,
+				156C93ECEEA034432C0C48B8814446FA /* Resolver-dummy.m */,
+				9EA71D809C73C4041E2EAAD8F31855C5 /* Resolver-Info.plist */,
+				DEE32C763999AD7BF97661D83F4D6A57 /* Resolver-prefix.pch */,
+				6DCCF983A021AA393A5E8528D77D1628 /* Resolver-umbrella.h */,
+				96B47E45F79D29460257F945D35D97F1 /* Resolver.debug.xcconfig */,
+				B408637C2D260778345825ED5E8C3805 /* Resolver.release.xcconfig */,
 			);
-			name = Resolver;
-			path = Resolver;
+			name = "Support Files";
+			path = "../Target Support Files/Resolver";
 			sourceTree = "<group>";
 		};
 		A1243B64539749CB8EAE52DB1EA7665F /* Targets Support Files */ = {
@@ -235,7 +237,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -300,6 +302,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1AE68B324B754A681F48066AF7D207D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B408637C2D260778345825ED5E8C3805 /* Resolver.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Resolver/Resolver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Resolver/Resolver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Resolver/Resolver.modulemap";
+				PRODUCT_MODULE_NAME = Resolver;
+				PRODUCT_NAME = Resolver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -364,46 +403,9 @@
 			};
 			name = Debug;
 		};
-		AF43DD7A16BC9CDCF6CBA8A727088271 /* Release */ = {
+		B8AE7F7AD809EFAEBB9CAC6DC7EE74A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E80424DB35F23613877143652F238E9E /* Resolver.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Resolver/Resolver-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Resolver/Resolver-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Resolver/Resolver.modulemap";
-				PRODUCT_MODULE_NAME = Resolver;
-				PRODUCT_NAME = Resolver;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D6448B0D85F3B4E756CF95D90D42C0CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E80424DB35F23613877143652F238E9E /* Resolver.xcconfig */;
+			baseConfigurationReference = 96B47E45F79D29460257F945D35D97F1 /* Resolver.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -598,8 +600,8 @@
 		A4F520E2D8E5AC5E974A0AAFC2000EE8 /* Build configuration list for PBXNativeTarget "Resolver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6448B0D85F3B4E756CF95D90D42C0CB /* Debug */,
-				AF43DD7A16BC9CDCF6CBA8A727088271 /* Release */,
+				B8AE7F7AD809EFAEBB9CAC6DC7EE74A3 /* Debug */,
+				1AE68B324B754A681F48066AF7D207D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
